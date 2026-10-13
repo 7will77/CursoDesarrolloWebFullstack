@@ -1,0 +1,42 @@
+:root{
+    /* Colores */
+  --bg-primary:    #f8fafc;
+  --bg-secondary:  #ffffff;
+  --bg-tertiary:   #eef2ff;
+  --text-primary:  #374151;
+  --text-secondary:#4b5563;
+  --text-muted:    #9ca3af;
+  --accent:        #6366f1;
+  --accent-hover:  #4f46e5;
+  --accent-light:  #e0e7ff;
+  --accent-2:      #a855f7;
+  --border:        #e5e7eb;
+  --card-shadow:   0 4px 24px -4px rgba(99,102,241,0.08), 0 1px 4px rgba(0,0,0,0.04);
+ 
+  /* Transición estándar */
+  --transition:    all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+ 
+  /* Tipografía */
+  --font-body:     'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ 
+  /* Espaciados */
+  --section-py:    6rem;
+  --gap:           2rem;
+}
+
+/* ============================================ */
+/* 2. RESET Y ESTILOS GLOBALES (Box Model)      */
+/* ============================================ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ 
+body {
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  line-height: 1.6;
+  transition: background-color 0.2s, color 0.2s;
+}
